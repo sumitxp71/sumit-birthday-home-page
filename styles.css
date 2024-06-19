@@ -1,0 +1,232 @@
+body, html {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+.box2 {
+    width: 600px; /* Adjust as needed */
+    height: 400px; /* Adjust as needed */
+    background-color: rgba(0, 0, 0, 0);
+    border: 11px solid #0004ff;
+    border-radius: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box2 img {
+    width: 600px;
+    height:400px;
+    border-radius: 200px;
+}
+.box3 {
+    width: 600px; /* Adjust as needed */
+    height: 400px; /* Adjust as needed */
+    background-color: rgba(255, 255, 255, 0);
+    border: 11px solid #ff0000;
+    border-radius: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box3 img {
+    width: 600px;
+    height:400px;
+    border-radius: 200px;
+}
+
+.text{
+   
+    color: #ffffff;
+    position: absolute;
+    top:30px;
+    left:10px;
+
+    
+}
+
+.text2{
+    
+  color:#ff0000;
+position: absolute;
+size-adjust: 400%;
+    top: 1740px;
+    right: 2%;
+    left: 9%;
+}
+h1{
+    color: #ffffff;
+}
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Pacifico&family=Pangolin&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0; 
+  padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 60px;
+    position: absolute;
+}
+
+h3 {
+    padding: 50px 0;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+}
+
+button {
+    position: relative;
+    background: transparent;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    align-self: center;
+    font-size: 45px;
+    font-weight: 400;
+    margin: 20px;
+    padding: 20px 250px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Pangolin;
+    font-weight: bold;
+    cursor: pointer;
+    top: 50%;
+    text-transform: uppercase;
+}
+
+.buttonBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 10px auto 35px;
+}
+.box1 {
+    width: 450px; 
+    height: 450px; 
+    background-color: rgba(255, 255, 255, 0);
+    border: 5px solid #f700ff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box1 img {
+    width: 450px;
+    height:450px;
+    border-radius: 10px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Pacifico&family=Pangolin&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0; 
+  padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 60px;
+    position: absolute;
+}
+
+h3 {
+    padding: 50px 0;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+}
+
+button1 {
+    position: relative;
+    background: transparent;
+    box-sizing: border-box;
+    border-radius: 3rem;
+    position: absolute;
+    font-size: 30px;
+    font-weight: 30;
+    margin: 20px;
+    padding: 20px 600px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Pangolin;
+    font-weight: bold;
+    cursor: pointer;
+    top: 100%;
+    text-transform: uppercase;
+}
+
+.button1Box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 10px auto 35px;
+}
+button2 {
+    position: relative;
+    background: transparent;
+    box-sizing: border-box;
+    border-radius: 2rem;
+    position: absolute;
+    font-size: 30px;
+    font-weight: 30;
+    margin: 20px;
+    padding: 20px 600px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Pangolin;
+    font-weight: bold;
+    cursor: pointer;
+    top: 100%;
+    text-transform: uppercase;
+}
+
+.button2Box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 10px auto 35px;
+}
